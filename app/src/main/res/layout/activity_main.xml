@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/button_animate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animate"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="// A gray view with 400dp height"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#aaa"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="#f00"
+            android:text="50dp height View"
+            android:layout_marginStart="10dp"
+            />
+
+        <TextView
+            android:id="@+id/image_1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:background="#f00"
+            android:src="@mipmap/ic_launcher"
+            android:text="animate with %"
+            />
+
+        <TextView
+            android:id="@+id/image_2"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:background="#f00"
+            android:text="animate with %p"
+            />
+
+    </LinearLayout>
+</LinearLayout>
